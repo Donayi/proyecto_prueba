@@ -147,4 +147,5 @@ def page_not_found(e):
 
 app.register_blueprint(person_bp)
 
-app.run()
+if __name__ == "__main__":
+    app.run()
